@@ -1,0 +1,5 @@
+from  alpine
+ENTRYPOINT ["ping"]
+#  must  a  program 
+CMD  ["fb.com"]
+# must  be an argument for the same 

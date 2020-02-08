@@ -1,0 +1,7 @@
+FROM alpine
+WORKDIR  /opt/
+#  changing dir --its like cd  command in dockerimage
+COPY  hello.sh  .
+RUN chmod +x  hello.sh 
+USER 1001 
+CMD  sh hello.sh 
